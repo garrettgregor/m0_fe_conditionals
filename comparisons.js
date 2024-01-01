@@ -17,12 +17,15 @@ console.log("Is numberTeachers greater than numberStudents?", numberTeachers > n
 // this should log: "Is numberTeachers greater than numberStudents?" false
 
 // YOU DO: log the result of the comparison: is numberTeachers strictly equal to stringTeachers?
+console.log("is numberTeachers strictly equal to stringTeachers?", numberStudents === numberTeachers)
 // this should log: false
 
 // YOU DO: log the result of the comparison: is numberTeachers not equal to numberStudents?
+console.log("is numberTeachers not equal to numberStudents?", numberStudents !== numberTeachers)
 // this should log: true
 
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 21?
+console.log("is numberStudents greater than or equal to 21?", numberStudents >= 21)
 // this should log: false
 
 
