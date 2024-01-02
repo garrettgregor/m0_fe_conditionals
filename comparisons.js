@@ -37,13 +37,13 @@ console.log("is numberStudents greater than or equal to 21?", numberStudents >= 
 
 var friends = 6;
 var siblings = 2;
-console.log(friends > siblings);
-// YOU DO: Explain.
+console.log("number of friends is greater than the variable siblings", friends > siblings);
+// this is assessing whether the number of friends is greater than the variable siblings, which should yield a true
 
 var attendees = 9;
 var meals = 8;
-console.log(attendees !== meals);
-// YOU DO: Explain.
+console.log("number of attendees is not equal to the number of meals", attendees !== meals);
+// this is assessing whether the number of attendees is not equal to the number of meals, which should also yield a true
 
 
 // #-------------------
@@ -55,9 +55,9 @@ var finishedHomework = false;
 
 // EXAMPLE:
 // Determine if the user is hungry and has completed their homework
-console.log(isHungry && finishedHomework);
+console.log("user is hungry and has completed their homework", isHungry && finishedHomework);
 // Determine if the user is hungry or has completed their homework
-console.log(isHungry || finishedHomework);
+console.log("user is hungry or has completed their homework", isHungry || finishedHomework);
 
 var lovesToPlay = true;
 var lovesDogPark = false;
@@ -66,10 +66,14 @@ var age = 1;
 
 // YOU DO:
 // Determine if the dog loves to play and loves treats
+console.log("the dog loves to play and loves treats", lovesToPlay && lovesTreats)
 
 // YOU DO:
 // Determine if the dog loves to play or loves the dog park
+console.log("dog loves to play or loves the dog park", lovesToPlay || lovesDogPark)
 
 // YOU DO:
 // Determine if the dog loves to play and is a puppy
+console.log("dog loves to play and is a puppy", lovesToPlay && (age < 2))
+
 // HINT: Use the age variable and assume that a puppy is less than 2 years old
